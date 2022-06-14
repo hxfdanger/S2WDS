@@ -1,0 +1,3 @@
+_Sentinel-2 L1C from 2017-12-08_SantaBarbara_BANDS-S2-L1C_0_5
+_Sentinel-2 L1C from 2018-08-16_Mendocino_BANDS-S2-L1C_0_5
+_Sentinel-2 L1C from 2019-11-12_PortMacquarie2_BANDS-S2-L1C_0_77

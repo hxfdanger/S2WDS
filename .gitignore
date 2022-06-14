@@ -1,0 +1,5 @@
+model/
+.ipynb_checkpoints/
+__pycache__/
+output.png
+requirements.txt
