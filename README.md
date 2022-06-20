@@ -114,7 +114,7 @@ jupyter notebook demo.ipynb
 - all images used for the demo are located in data folder. The structure of the data described
   (<a href="#data_structure">bellow</a>).
 
-### 2. Data structure <div id="data_structure"></div>
+### 2. <div id="data_structure">Data structure</div>
 
 ```
 ./data/
