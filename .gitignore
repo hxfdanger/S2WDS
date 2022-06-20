@@ -4,3 +4,4 @@ __pycache__/
 .idea/
 output.png
 requirements.txt
+*.bib
