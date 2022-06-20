@@ -28,7 +28,7 @@
         <a href="#usage-">Usage</a>
         <ul>
             <li><a href="#demo-running">Demo running</a></li>
-            <li><a href="#data-structure">Data structure</a></li>
+            <li><a href="#data_structure">Data structure</a></li>
         </ul>
     </li>
     <li><a href="#license">License</a></li>
