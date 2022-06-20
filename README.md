@@ -31,9 +31,9 @@
             <li><a href="#data_structure">Data structure</a></li>
         </ul>
     </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#references">References</a></li>
+    <li><a href="#license-">License</a></li>
+    <li><a href="#contact-">Contact</a></li>
+    <li><a href="#references-">References</a></li>
   </ol>
 </details>
 
@@ -114,7 +114,7 @@ jupyter notebook demo.ipynb
 - all images used for the demo are located in data folder. The structure of the data described
   (<a href="#data_structure">bellow</a>).
 
-### 2. <div id="data_structure">Data structure</div>
+### <div id="data_structure"> 2. Data structure</div>
 
 ```
 ./data/
@@ -154,7 +154,7 @@ jupyter notebook demo.ipynb
 
 <!-- LICENSE -->
 
-## License
+## License 📑
 
 Distributed under the XXX License. See `LICENSE.txt` for more information.
 
@@ -164,12 +164,12 @@ Distributed under the XXX License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 
-## Contact
+## Contact 📭
 
-* [Adrien GIRARD](mailto:adrien.girard@irt-saintexupery.com)
-* [Lionel DANIEL](mailto:lionel.daniel@irt-saintexupery.com)
-* [Michael Benguigui](mailto:michael.benguigui@irt-saintexupery.com)
-* [Houssem FARHAT](mailto:houssem.farhat@irt-saintexupery.com)
+* [Adrien GIRARD 📧](mailto:adrien.girard@irt-saintexupery.com)
+* [Lionel DANIEL 📧](mailto:lionel.daniel@irt-saintexupery.com)
+* [Michael BENGUIGUI 📧](mailto:michael.benguigui@irt-saintexupery.com)
+* [Houssem FARHAT 📧](mailto:houssem.farhat@irt-saintexupery.com)
 
 Project Link: [https://github.com/hxfdanger/S2WDS/](https://github.com/hxfdanger/S2WDS/)
 
@@ -177,9 +177,9 @@ Project Link: [https://github.com/hxfdanger/S2WDS/](https://github.com/hxfdanger
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- REFERENCES -->
 
-## References
+## References 🔗 
 
 <ol>
 <li>
