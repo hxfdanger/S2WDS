@@ -20,8 +20,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation-">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
     <li>
@@ -68,22 +68,25 @@ consists of showing you how to load the model and make the inference on some sam
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and
 running follow these simple example steps.
 
-### Prerequisites
-
-To install the conda environment run
-this [(to run conda command you have install Anaconda distribution )](https://www.anaconda.com/products/distribution)
-
-   ```sh
-   conda env create -f S2WDS_env.yml
-   ```
 
 ### Installation 🔩
 
 1. Clone the repo
 
+  ```sh
+  git clone "https://github.com/hxfdanger/S2WDS.git"
+  ```
+
+### Prerequisites
+
+Create conda env using S2WDS_env.yml file
+
    ```sh
-   git clone "https://github.com/hxfdanger/S2WDS.git"
+   conda env create -f S2WDS_env.yml
    ```
+
+🚨 To install the conda environment run
+this (to run conda command you have to install [Anaconda distribution](https://www.anaconda.com/products/distribution))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,7 +98,9 @@ this [(to run conda command you have install Anaconda distribution )](https://ww
 
 ### 1. Demo running
 
-🚨 PS: to run the notebook **demo.ipynb** you have to install **jupyter** package in your active environment
+The jupyter nootebook is not installed in the S2WDS env created by <a href="#prerequisites">S2WDS_env.yml </a> file.
+
+🚨 To run the notebook **demo.ipynb** you have to install **jupyter** package in your active environment
 ```conda install -c anaconda jupyter```
 
 🏁 Run the notebook [**demo.ipynb**](https://github.com/hxfdanger/S2WDS/blob/prepare_demo/demo.ipynb)
@@ -156,7 +161,10 @@ jupyter notebook demo.ipynb
 
 ## License 📑
 
-Distributed under the XXX License. See `LICENSE.txt` for more information.
+
+Distributed under the Attribution 4.0 International (CC BY 4.0) License. 
+
+Contains modified Copernicus Sentinel data [2016-2020] processed by Sentinel Hub
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -166,10 +174,11 @@ Distributed under the XXX License. See `LICENSE.txt` for more information.
 
 ## Contact 📭
 
-* [Adrien GIRARD 📧](mailto:adrien.girard@irt-saintexupery.com)
+* [Houssem FARHAT 📧](mailto:houssem.farhat@irt-saintexupery.com)
 * [Lionel DANIEL 📧](mailto:lionel.daniel@irt-saintexupery.com)
 * [Michael BENGUIGUI 📧](mailto:michael.benguigui@irt-saintexupery.com)
-* [Houssem FARHAT 📧](mailto:houssem.farhat@irt-saintexupery.com)
+* [Adrien GIRARD 📧](mailto:adrien.girard@irt-saintexupery.com)
+
 
 Project Link: [https://github.com/hxfdanger/S2WDS/](https://github.com/hxfdanger/S2WDS/)
 
@@ -184,7 +193,7 @@ Project Link: [https://github.com/hxfdanger/S2WDS/](https://github.com/hxfdanger
 <ol>
 <li>
 <div id="ref-FARHAT:2022" class="csl-entry" role="doc-biblioentry">
-Houssem Farhat, Michael Benguigui, Lionel Daniel. 2022. <span>“Mod<span>è</span>le Et Jeu de Donn<span>é</span>es Pour La d<span>é</span>tection Multi-Spectrale de Feux de Forêt <span class="nocase">à</span> Bord de Satellites.”</span> In <em>PFIA 2022 - CNIA</em>, 1–8. Angers, France. <a href="https://hal.archives-ouvertes.fr/hal-02971742">https://hal.archives-ouvertes.fr/hal-02971742</a>.
+Houssem Farhat, Michael Benguigui, Lionel Daniel. 2022. <span>“Mod<span>è</span>le Et Jeu de Donn<span>é</span>es Pour La d<span>é</span>tection Multi-Spectrale de Feux de Forêt <span class="nocase">à</span> Bord de Satellites.”</span> In <em>PFIA 2022 - CNIA</em>, 1–8. Angers, France. <a href="">paper link</a>.
 </div>
 </li>
 </ol>
