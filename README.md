@@ -1,6 +1,6 @@
 # SENTINEL2-FOREST-FIRES-DATASET
 
-## Dataset for On-board detection of forest fires using sentinel-2 multi-spectral satellite imagery
+## Dataset for on-board detection of forest fires using sentinel-2 multi-spectral satellite imagery
 
 <div id="top"></div>
 
