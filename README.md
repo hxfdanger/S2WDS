@@ -46,7 +46,6 @@
 This git repository contains a demonstration of active forest fire detection with a deep learning model. The demo
 consists of showing you how to load the model and make the inference on some sample images.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With 🧰
 
@@ -65,28 +64,37 @@ consists of showing you how to load the model and make the inference on some sam
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and
-running follow these simple example steps.
-
+Follow these instructions to locally setup up your project.
 
 ### Installation 🔩
 
-1. Clone the repo
+- Clone the repo
 
   ```sh
   git clone "https://github.com/hxfdanger/S2WDS.git"
+  
+  cd S2WDS/
   ```
 
 ### Prerequisites
 
-Create conda env using S2WDS_env.yml file
+- Create the dedicated python environment using the S2WDS_env.yml file
 
    ```sh
    conda env create -f S2WDS_env.yml
    ```
+- Activate it:
+  ```sh
+     conda conda activate S2WDS
+  ```
 
 🚨 To install the conda environment run
 this (to run conda command you have to install [Anaconda distribution](https://www.anaconda.com/products/distribution))
+
+🚨 The model **wildfire_Unet_MobileNetv3_model_40m.h5** used in the demo does not exist in this repository. you can
+download it [__here__](https://ciar.irt-saintexupery.com/index.php/s/NDXrX4eRKzkIPWD/download?path=%2F&files=wildfire_Unet_MobileNetv3_model_40m.h5). 
+And you have to put it in a folder called model.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -100,7 +108,7 @@ this (to run conda command you have to install [Anaconda distribution](https://w
 
 The jupyter nootebook is not installed in the S2WDS env created by <a href="#prerequisites">S2WDS_env.yml </a> file.
 
-🚨 To run the notebook **demo.ipynb** you have to install **jupyter** package in your active environment
+🚨 To run the notebook **demo.ipynb** you have to install **jupyter** package in your active (S2WDS) environment
 ```conda install -c anaconda jupyter```
 
 🏁 Run the notebook [**demo.ipynb**](https://github.com/hxfdanger/S2WDS/blob/prepare_demo/demo.ipynb)
@@ -111,12 +119,9 @@ jupyter notebook demo.ipynb
 
 **✍ NOTES:**
 
-- [**demo.ipynb**](https://github.com/hxfdanger/S2WDS/blob/prepare_demo/demo.ipynb) will use some function declared in
+- [**Demo.ipynb**](https://github.com/hxfdanger/S2WDS/blob/prepare_demo/demo.ipynb) will use some function declared in
   utils.py
-- The model **wildfire_Unet_MobileNetv3_model_40m.h5** used in the demo does not exist in this repository. you can
-  download it [__here__](https://ciar.irt-saintexupery.com/index.php/s/NDXrX4eRKzkIPWD/download?path=%2F&files=wildfire_Unet_MobileNetv3_model_40m.h5). 
-  And you have to put it in a folder called model.
-- all images used for the demo are located in data folder. The structure of the data described
+- All images used for the demo are located in data folder. The structure of the data described
   (<a href="#data_structure">bellow</a>).
 
 ### <div id="data_structure"> 2. Data structure</div>
