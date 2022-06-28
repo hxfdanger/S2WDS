@@ -1,0 +1,8 @@
+model/
+.ipynb_checkpoints/
+__pycache__/
+.idea/
+output.png
+requirements.txt
+*.bib
+FireSat.md
