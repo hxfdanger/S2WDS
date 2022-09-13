@@ -4,7 +4,7 @@
 
 
 <p align="center">
-<img src="images/logo.png"  ><br>
+<img src="images/logo.png"  width=300" height="200"><br>
 </p>
 
 ## Demo using a deep learning model to detect forest fires using sentinel-2 multi-spectral satellite imagery
