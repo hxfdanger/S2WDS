@@ -1,9 +1,20 @@
-# SENTINEL2-FOREST-FIRES-DATASET
 
-## Dataset for On-board detection of forest fires using sentinel-2 multi-spectral satellite imagery
+
+<H1 align="center" style="color:darkviolet"> SENTINEL2 FOREST FIRES DETECTION </H1>
+
+
+<p align="center">
+<img src="images/logo.png"  ><br>
+</p>
+
+## Demo using a deep learning model to detect forest fires using sentinel-2 multi-spectral satellite imagery
 
 <div id="top"></div>
 
+
+<p align="center">
+<img src="images/res.png" ><br>
+</p>
 
 
 
@@ -11,18 +22,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-this-repository-">About This Repository</a>
-      <ul>
-        <li><a href="#built-with-">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-this-repository-">About This Repository</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation-">Installation</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
     </li>
     <li>
         <a href="#usage-">Usage</a>
@@ -47,7 +49,7 @@ This git repository contains a demonstration of active forest fire detection wit
 consists of showing you how to load the model and make the inference on some sample images.
 
 
-### Built With 🧰
+### This demo is built with :
 
 * [Anaconda](https://www.anaconda.com/products/distribution)
 * [Python](https://www.python.org/)
@@ -66,7 +68,6 @@ consists of showing you how to load the model and make the inference on some sam
 
 Follow these instructions to locally setup up your project.
 
-### Installation 🔩
 
 - Clone the repo
 
@@ -76,7 +77,6 @@ Follow these instructions to locally setup up your project.
   cd S2WDS/
   ```
 
-### Prerequisites
 
 - Create the dedicated python environment using the S2WDS_env.yml file
 
