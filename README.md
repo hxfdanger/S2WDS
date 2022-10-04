@@ -29,8 +29,8 @@
     <li>
         <a href="#usage-">Usage</a>
         <ul>
-            <li><a href="#demo-running">Demo running</a></li>
-            <li><a href="#data_structure">Data structure</a></li>
+            <li><a href="#demo-running">Demo Running</a></li>
+            <li><a href="#data_structure">Data Structure</a></li>
         </ul>
     </li>
     <li><a href="#license-">License</a></li>
@@ -43,7 +43,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About This repository 💼
+## About This Repository 💼
 
 This git repository contains a demonstration of active forest fire detection with a deep learning model. The demo
 consists of showing you how to load the model and make the inference on some sample images.
@@ -85,7 +85,7 @@ Follow these instructions to locally setup up your project.
    ```
 - Activate it:
   ```sh
-     conda conda activate S2WDS
+     conda activate S2WDS
   ```
 
 🚨 To install the conda environment run
@@ -104,7 +104,7 @@ And you have to put it in a folder called model.
 
 ## Usage 📒
 
-### 1. Demo running
+### <div id="demo-running"> 1. Demo Running</div>
 
 The jupyter nootebook is not installed in the S2WDS env created by <a href="#prerequisites">S2WDS_env.yml </a> file.
 
@@ -124,7 +124,7 @@ jupyter notebook demo.ipynb
 - All images used for the demo are located in data folder. The structure of the data described
   (<a href="#data_structure">bellow</a>).
 
-### <div id="data_structure"> 2. Data structure</div>
+### <div id="data_structure"> 2. Data Structure</div>
 
 ```
 ./data/
